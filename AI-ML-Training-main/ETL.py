@@ -140,7 +140,6 @@ print("Current Working Directory:", os.getcwd())
 # In[9]:
 
 
-get_ipython().system('jupyter nbconvert --to script ETL.ipynb')
 
 
 # In[ ]:
