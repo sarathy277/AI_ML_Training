@@ -3,7 +3,6 @@ import pickle
 
 app = Flask(__name__)
 
-# Load the trained model
 model = pickle.load(open(r"C:/Users/sugav/OneDrive/Documents/All Internships/AI _ML_Training/Day 9/Student_Performance/data/student_performance.pkl", 'rb'))
 
 @app.route('/')
