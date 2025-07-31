@@ -4,7 +4,7 @@ import numpy as np
 
 app = Flask(__name__)
 
-with open(r"C:/Users/sugav/OneDrive/Documents/All Internships/AI _ML_Training/Day 9/Taxi Prediction/data/taxi_model.pkl", "rb") as f:
+with open(r"C:/Users/aditya/AI _ML_Training/Day 9/Taxi Prediction/data/taxi_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 @app.route('/')
