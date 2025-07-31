@@ -71,7 +71,7 @@ logging.info("Data cleaning completed.")
 mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Vicky@2223",
+    password="sarathy",
     database="employee"  # Replace with your actual DB name
 )
 
